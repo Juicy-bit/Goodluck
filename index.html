@@ -1,144 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Good Luck on Your Exam!</title>
-    <style>
-        body {
-            font-family: 'Comic Sans MS', cursive, sans-serif;
-            background: linear-gradient(to right, #ffe0f7, #e0f7ff);
-            text-align: center;
-            padding: 20px;
-            overflow-x: hidden;
-            overflow-y: hidden;
-            position: relative;
-            min-height: 100vh;
-            box-sizing: border-box;
-        }
-        h1 {
-            font-size: 2.5em;
-            color: #ff6f91;
-            margin-bottom: 10px;
-        }
-        p, .message {
-            font-size: 1.2em;
-            color: #6a0572;
-            margin-top: 10px;
-            max-width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-            line-height: 1.6;
-        }
-        .cat {
-            width: 120px;
-            animation: float 3s ease-in-out infinite;
-            margin-top: 20px;
-        }
-        @keyframes float {
-            0% { transform: translateY(0); }
-            50% { transform: translateY(-20px); }
-            100% { transform: translateY(0); }
-        }
-        .flower {
-            position: absolute;
-            width: 25px;
-            height: 25px;
-            background-image: url('https://cdn-icons-png.flaticon.com/512/616/616408.png');
-            background-size: cover;
-            animation: fall 10s linear infinite;
-            opacity: 0.8;
-        }
-        @keyframes fall {
-            0% { transform: translateY(-100px) rotate(0deg); }
-            100% { transform: translateY(100vh) rotate(360deg); }
-        }
-        .glitter {
-            position: absolute;
-            width: 8px;
-            height: 8px;
-            background: radial-gradient(circle, white 0%, transparent 60%);
-            border-radius: 50%;
-            animation: sparkle 2s infinite ease-in-out;
-            opacity: 0.7;
-        }
-        @keyframes sparkle {
-            0%, 100% { transform: scale(1); opacity: 0.7; }
-            50% { transform: scale(1.5); opacity: 1; }
-        }
-        audio {
-            display: none;
-        }
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2em;
-            }
-            p, .message {
-                font-size: 1em;
-            }
-            .cat {
-                width: 100px;
-            }
-            .flower {
-                width: 20px;
-                height: 20px;
-            }
-            .glitter {
-                width: 6px;
-                height: 6px;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Good Luck on Your Exam!</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(to right, #ffe0f7, #e0f7ff);
+      text-align: center;
+      padding: 20px;
+      overflow-x: hidden; /* only hide horizontal scroll */
+      position: relative;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+    h1 {
+      font-size: 2.5em;
+      color: #ff6f91;
+      margin-bottom: 10px;
+    }
+    p, .message {
+      font-size: 1.2em;
+      color: #6a0572;
+      margin-top: 10px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.6;
+    }
+    .cat {
+      width: 120px;
+      animation: float 3s ease-in-out infinite;
+      margin-top: 20px;
+    }
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
+    }
+    .flower {
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      background-image: url('https://cdn-icons-png.flaticon.com/512/616/616408.png');
+      background-size: cover;
+      animation: fall 10s linear infinite;
+      opacity: 0.8;
+    }
+    @keyframes fall {
+      0% { transform: translateY(-100px) rotate(0deg); }
+      100% { transform: translateY(100vh) rotate(360deg); }
+    }
+    .glitter {
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      background: radial-gradient(circle, white 0%, transparent 60%);
+      border-radius: 50%;
+      animation: sparkle 2s infinite ease-in-out;
+      opacity: 0.7;
+    }
+    @keyframes sparkle {
+      0%, 100% { transform: scale(1); opacity: 0.7; }
+      50% { transform: scale(1.5); opacity: 1; }
+    }
+    audio {
+      display: none;
+    }
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2em;
+      }
+      p, .message {
+        font-size: 1em;
+      }
+      .cat {
+        width: 100px;
+      }
+      .flower {
+        width: 20px;
+        height: 20px;
+      }
+      .glitter {
+        width: 6px;
+        height: 6px;
+      }
+    }
+  </style>
 </head>
 <body>
 
-    <h1>Good Luck on Your Mid-Term Exam!</h1>
-    <p>You are amazing! Believe in yourself and shine bright! 🐾✨</p>
+  <h1>Good Luck on Your Mid-Term Exam!</h1>
+  <p>You are amazing! Believe in yourself and shine bright! 🐾✨</p>
 
-    <div class="message">
-        Hey,
-        <br><br>
-        I just wanted to wish you good luck for your mid-term exam! 🌟<br>
-        I know you’ve been working really hard, and I really believe you’ll do great.
-        <br><br>
-        Just stay calm, trust yourself, and give it your best shot. Even if it feels stressful at times, remember that all the effort you’ve put in will pay off. 📚✨
-        <br><br>
-        No matter what the outcome is, what matters most is that you did your best — and that’s something to be really proud of.
-        <br><br>
-        Cheering for you from here! 🐾🌷<br>
-        Good luck and stay awesome! 🌟
-    </div>
+  <div class="message">
+    Hey,
+    <br><br>
+    I just wanted to wish you good luck for your mid-term exam! 🌟<br>
+    I know you’ve been working really hard, and I really believe you’ll do great.
+    <br><br>
+    Just stay calm, trust yourself, and give it your best shot. Even if it feels stressful at times, remember that all the effort you’ve put in will pay off. 📚✨
+    <br><br>
+    No matter what the outcome is, what matters most is that you did your best — and that’s something to be really proud of.
+    <br><br>
+    Cheering for you from here! 🐾🌷<br>
+    Good luck and stay awesome! 🌟
+  </div>
 
-    <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="Cute Cat" class="cat">
+  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="Cute Cat" class="cat">
 
-    <audio id="background-music" autoplay loop muted>
-        <source src="Power-Gdragon.mp3" type="audio/mpeg">
-    </audio>
+  <audio id="background-music" autoplay loop muted>
+    <source src="Power-Gdragon.mp3" type="audio/mpeg">
+  </audio>
 
-    <!-- Flower animations -->
-    <div class="flower" style="left: 10%; animation-delay: 0s;"></div>
-    <div class="flower" style="left: 30%; animation-delay: 2s;"></div>
-    <div class="flower" style="left: 50%; animation-delay: 4s;"></div>
-    <div class="flower" style="left: 70%; animation-delay: 1s;"></div>
-    <div class="flower" style="left: 90%; animation-delay: 3s;"></div>
+  <!-- Flower animations -->
+  <div class="flower" style="left: 10%; animation-delay: 0s;"></div>
+  <div class="flower" style="left: 30%; animation-delay: 2s;"></div>
+  <div class="flower" style="left: 50%; animation-delay: 4s;"></div>
+  <div class="flower" style="left: 70%; animation-delay: 1s;"></div>
+  <div class="flower" style="left: 90%; animation-delay: 3s;"></div>
 
-    <!-- Glitter sparkles -->
-    <div class="glitter" style="top: 20%; left: 15%; animation-delay: 0s;"></div>
-    <div class="glitter" style="top: 40%; left: 25%; animation-delay: 0.5s;"></div>
-    <div class="glitter" style="top: 60%; left: 45%; animation-delay: 1s;"></div>
-    <div class="glitter" style="top: 30%; left: 65%; animation-delay: 1.5s;"></div>
-    <div class="glitter" style="top: 50%; left: 85%; animation-delay: 2s;"></div>
+  <!-- Glitter sparkles -->
+  <div class="glitter" style="top: 20%; left: 15%; animation-delay: 0s;"></div>
+  <div class="glitter" style="top: 40%; left: 25%; animation-delay: 0.5s;"></div>
+  <div class="glitter" style="top: 60%; left: 45%; animation-delay: 1s;"></div>
+  <div class="glitter" style="top: 30%; left: 65%; animation-delay: 1.5s;"></div>
+  <div class="glitter" style="top: 50%; left: 85%; animation-delay: 2s;"></div>
 
-    <!-- Script to unmute audio on click -->
-    <script>
-      document.addEventListener('click', function() {
-          var audio = document.getElementById('background-music');
-          if (audio.muted) {
-              audio.muted = false;
-              audio.play();
-          }
-      });
-    </script>
+  <!-- Script to unmute audio on click -->
+  <script>
+    document.addEventListener('click', function() {
+      var audio = document.getElementById('background-music');
+      if (audio.muted) {
+          audio.muted = false;
+          audio.play();
+      }
+    });
+  </script>
 
 </body>
 </html>
